@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Remotes -->
+  <remote name="CuriousROMBuilder" fetch="https://github.com/CuriousROMBuilder" revision="a12/master"/>
+  <!-- Extras -->
+  <project path="device/xiaomi/land-camera" name="android_device_xiaomi_land-camera" groups="device" remote="CuriousROMBuilder"/>
+  <project path="device/xiaomi/mi8937-camera" name="android_device_xiaomi_mi8937-camera" groups="device" remote="CuriousROMBuilder"/>
+  <!-- Trees -->
+  <!-- Kernel -->
+  <project path="kernel/xiaomi/msm8937" name="CuriousROMBuilder/android_kernel_xiaomi_msm8937.git" remote="github" revision="a12/master"/>
+  <!-- Device -->
+  <project path="device/xiaomi/msm8937-common" name="CuriousROMBuilder/android_device_xiaomi_msm8937-common.git" remote="github" revision="lineage-19.1"/>
+  <project path="device/xiaomi/riva" name="CuriousROMBuilder/android_device_xiaomi_riva.git" remote="github" revision="lineage-19.1"/>
+  <project path="device/xiaomi/rova-common" name="CuriousROMBuilder/android_device_xiaomi_rova-common.git" remote="github" revision="lineage-19.1"/>
+  <!-- Vendor -->
+  <project path="vendor/xiaomi/msm8937-common" name="CuriousROMBuilder/proprietary_vendor_xiaomi_msm8937-common.git" remote="github" revision="lineage-19.1"/>
+  <project path="vendor/xiaomi/rova-common" name="CuriousROMBuilder/proprietary_vendor_xiaomi_rova-common.git" remote="github" revision="lineage-18.1"/>
+  <project path="vendor/xiaomi/riva" name="CuriousROMBuilder/proprietary_vendor_xiaomi_riva.git" remote="github" revision="lineage-18.1"/>
+</manifest>
